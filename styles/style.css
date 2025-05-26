@@ -6,13 +6,34 @@
 }
 
 body {
-  background-color: white;
+  justify-content: center;
+
 }
 
 .sobre-mi {
-  background-color: rgb(211, 7, 7);
+  background-color: rgb(119, 118, 118);
+  display: flex;
+
 }
 
-.contacto {
-  background-color: gray;
+.sobre-mi img {
+  width: 100%;
+}
+
+
+
+
+.informacion {
+  margin: 10%;
+
+}
+
+.informacion h3 {
+  color: rgb(230, 223, 223)
+}
+
+.informacion p {
+  margin-top: 5%;
+  color: rgb(0, 0, 0);
+
 }
