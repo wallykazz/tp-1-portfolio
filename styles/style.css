@@ -135,3 +135,51 @@ body {
   padding: 15px 0;
   font-size: 14px;
 }
+
+@media (max-width: 1165px) {
+  .about-me {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-me .imagen img {
+    width: 100%;
+    max-width: 400px;
+    padding-bottom: 0px;
+    margin: 0%;
+
+
+  }
+
+  .about-me .informacion {
+    padding-top: 2%;
+    margin-top: 2%;
+  }
+
+  .informacion {
+    padding-top: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .about-me {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-me .imagen img {
+    width: 100%;
+    max-width: 300px;
+    padding-bottom: 0px;
+
+  }
+
+  .about-me .informacion {
+    padding-top: 2%;
+    margin-top: 2%;
+  }
+
+  .informacion {
+    padding-top: 20px;
+  }
+}
