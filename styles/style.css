@@ -91,3 +91,11 @@ body {
 .contact-info a:hover {
   text-decoration: underline;
 }
+
+.footer {
+  background-color: #222;
+  color: #eee;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 14px;
+}
