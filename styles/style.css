@@ -38,3 +38,35 @@ body {
   color: rgb(0, 0, 0);
 
 }
+
+
+.skills-section {
+  background-color: rgb(119, 118, 118);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px 20px;
+  flex-wrap: wrap;
+  gap: 30px;
+  text-align: center;
+}
+
+.skill {
+  max-width: 200px;
+}
+
+.skill img {
+  width: 80px;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.skill h3 {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.skill p {
+  font-size: 15px;
+  color: #f5f3f3;
+}
