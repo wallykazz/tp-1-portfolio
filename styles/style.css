@@ -10,13 +10,14 @@ body {
 
 }
 
-.sobre-mi {
+.about-me {
+  padding-top: 55px;
   background-color: rgb(119, 118, 118);
   display: flex;
 
 }
 
-.sobre-mi img {
+.about-me img {
   width: 100%;
 }
 
