@@ -7,6 +7,7 @@
 }
 
 body {
+  background-color: black;
   justify-content: center;
 
 }
@@ -41,11 +42,33 @@ body {
 
 }
 
-.experience h2 {
-  padding: 10px;
+.experience {
+  border: 8px solid #0a9396;
+  padding: 40px;
+  box-sizing: border-box;
+  background-color: #1a1a1a;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
 }
 
+.experience h2 {
+  margin-top: 2px;
+  padding: 5px;
+  color: white;
+}
 
+.skills {
+  border: 8px solid #0a9396;
+  padding: 40px;
+  box-sizing: border-box;
+  background-color: #1a1a1a;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+}
 
 .skills-section {
   background-color: rgb(119, 118, 118);
@@ -69,7 +92,9 @@ body {
 }
 
 .skills h2 {
-  padding: 10px;
+  margin-top: 2px;
+  padding: 5px;
+  color: white;
 }
 
 .skill h3 {
@@ -80,6 +105,17 @@ body {
 .skill p {
   font-size: 15px;
   color: #f5f3f3;
+}
+
+.contact {
+  border: 8px solid #0a9396;
+  padding: 40px;
+  box-sizing: border-box;
+  background-color: #1a1a1a;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
 }
 
 .contact-info {
@@ -114,6 +150,7 @@ body {
 
 .contact-info p {
   margin: 5px;
+  color: white;
 }
 
 .contact-info a {
@@ -127,6 +164,7 @@ body {
 
 .contact-info h2 {
   padding-bottom: 10px;
+  color: white;
 }
 
 .footer {
